@@ -3,7 +3,8 @@ name: Netlify Deploy
 on:
   push:
     branches:
-      - main  # Replace with your main branch name
+      - master  # Replace with your main branch name
+  workflow_dispatch:
 
 jobs:
   deploy:
